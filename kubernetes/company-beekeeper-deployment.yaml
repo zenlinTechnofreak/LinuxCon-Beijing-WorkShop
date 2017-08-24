@@ -39,7 +39,7 @@ spec:
         ports:
         - containerPort: 8090
         resources:
-          requests:
+          limits:
             cpu: 200m
       restartPolicy: Always
 status: {}

@@ -34,7 +34,7 @@ spec:
         ports:
         - containerPort: 30100
         resources:
-          requests:
+          limits:
             cpu: 200m
       restartPolicy: Always
 status: {}
